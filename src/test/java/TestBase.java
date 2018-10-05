@@ -28,8 +28,7 @@ public class TestBase {
         WebElement webElement = driver.findElement(By.id("lst-ib"));
         webElement.sendKeys("CHI Software");
         webElement.sendKeys(Keys.ENTER);
-
-
+        
 
     }
 
